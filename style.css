@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;800&family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    padding: 50px 0px;
+}
+
+.hero-contant {
+    padding-top: 100px;
+}
+
+.hero-contant h1 {
+    font-family: 'inter';
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.hero-contant h4 {
+    padding-top: 12px;
+    font-family: 'inter';
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a5568;
+}
+
+.hero-container img {
+    width: 100%;
+}
+
+/* 
+long-section */
+
+section.long-section {
+    padding: 50px 0px;
+}
+
+.long-container {
+    border: 2px solid #e2e2e2;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 4px 3px #dddddd;
+}
+
+.long-contant {
+    padding: 41px 54px;
+}
+
+.long-contant h2 {
+    font-family: 'inter';
+    font-size: 30px;
+    font-weight: bold;
+    color: #2D3748;
+}
+
+.long-contant h5 {
+    font-family: 'inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #718096;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    font-size: 12px;
+    font-family: 'inter';
+    color: #718096;
+}
+
+.status button {
+    all: unset;
+    padding: 5px;
+    font-weight: bold;
+    color: black;
+    border: 1px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.status button:hover {
+    border: 1px solid #718096;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.long-container img {
+    width: 100%;
+}
+
+/* 
+card-section */
+
+.card-section {
+    padding: 50px 0px;
+}
+
+.card-container {
+    border: 1px solid rgba(192, 189, 189, 0.25);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px #c0bdbd;
+}
+
+.card-contant {
+    padding: 16px 18px;
+}
+
+.card-contant h3 {
+    font-family: 'inter';
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.card-contant h4 {
+    padding-top: 15px;
+    font-family: 'inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #718096;
+}
+
+.card-cont img {
+    width: 100%;
+}
+
+/* v-section  */
+
+.v-section {
+    padding: 50px 0px;
+}
+
+.v-contant {
+    padding: 98px 63px;
+}
+
+.v-contant h1 {
+    font-family: 'inter';
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.v-contant h2 {
+    padding-top: 24px;
+    font-family: 'inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #718096;
+}
+
+.v-section img {
+    width: 100%;
+}
+
+/* post-page */
+
+section.banner-section img {
+    width: 100%;
+}
+
+.banner-section h1 {
+    padding-top: 19px;
+    font-family: 'inter';
+    font-size: 45px;
+    font-weight: bold;
+    color: #2d3748;
+}
+
+.status2 {
+    display: flex;
+    font-family: 'inter';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.status2 h6 {
+    padding-right: 20px;
+}
+
+.banner-contant h2 {
+    padding-top: 19px;
+    font-family: 'inter';
+    font-size: 30px;
+    font-weight: bold;
+    color: #2d3748;
+}
+
+.banner-contant p {
+    font-family: 'inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #718096;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+
+}
+
+nav.color {
+    color: black;
+}
+
+nav img {
+    width: 15px;
+}
+
+@media screen and (max-width:750px) {
+    .hero-section {
+        padding: 0px;
+    }
+
+    .hero-contant {
+        padding: 10px;
+    }
+
+    .hero-contant h1 {
+        font-size: 40px;
+    }
+
+    .long-contant {
+        padding: 10px 10px;
+    }
+
+    .card-section {
+        padding: 0px;
+    }
+
+    .card-contant {
+        padding: 10px;
+
+    }
+
+    .card-cont img {
+        width: 100%;
+    }
+
+    .card-container {
+        margin: 15px 0px;
+        border: 1px solid black;
+        overflow: hidden;
+    }
+
+    .v-section {
+        padding: 0px 0px;
+    }
+
+    .v-contant {
+        padding: 10px 0px;
+    }
+
+}
